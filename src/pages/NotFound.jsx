@@ -67,7 +67,7 @@ const NotFound = () => {
         transition={{ delay: 0.8 }}
         className="mt-12 text-surface-500"
       >
-        © {new Date().getFullYear()} DropDeck
+        © {new Date().getFullYear()} DropKind
       </motion.div>
     </motion.div>
   );

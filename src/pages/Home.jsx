@@ -60,7 +60,7 @@ const Home = () => {
           transition={{ delay: 0.2 }}
           className="text-3xl md:text-4xl lg:text-5xl font-bold gradient-text"
         >
-          DropDeck
+          DropKind
         </motion.h1>
         <motion.p 
           initial={{ y: -20, opacity: 0 }}
@@ -172,7 +172,7 @@ const Home = () => {
       </div>
 
       <footer className="mt-auto py-6 text-center text-surface-500">
-        <p>© {new Date().getFullYear()} DropDeck. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} DropKind. All rights reserved.</p>
       </footer>
     </motion.div>
   );
