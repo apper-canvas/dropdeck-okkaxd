@@ -16,7 +16,7 @@ const FileViewOptions = ({
   const XIcon = getIcon('X');
 
   return (
-    <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-4 gap-4">
+      <div className="relative max-w-md w-full flex-1">
       <div className="relative w-full md:w-64">
         <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
           <SearchIcon className="h-4 w-4 text-surface-400" />
@@ -30,7 +30,7 @@ const FileViewOptions = ({
         />
         {searchQuery && (
           <button
-            onClick={() => setSearchQuery('')}
+      <div className="flex items-center gap-2 flex-shrink-0">
             className="absolute inset-y-0 right-0 pr-3 flex items-center"
           >
             <XIcon className="h-4 w-4 text-surface-400 hover:text-surface-600" />
