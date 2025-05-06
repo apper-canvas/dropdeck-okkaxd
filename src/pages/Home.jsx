@@ -1,12 +1,12 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { toast } from 'react-toastify';
+import FileExplorer from '../components/FileExplorer';
 import MainFeature from '../components/MainFeature';
 import getIcon from '../utils/iconUtils';
 
 const Home = () => {
-  const [activeTab, setActiveTab] = useState('upload');
-  const [recentFiles, setRecentFiles] = useState([]);
+  const [activeTab, setActiveTab] = useState('explorer'); // Changed default to explorer
 
   const UploadCloudIcon = getIcon('UploadCloud');
   const FolderIcon = getIcon('Folder');
