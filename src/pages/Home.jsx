@@ -4,7 +4,6 @@ import { toast } from 'react-toastify';
 import getIcon from '../utils/iconUtils';
 import FileExplorer from '../components/FileExplorer';
 import mockFiles from '../mock/fileData';
-import { toast } from 'react-toastify';
 const Home = ({ view = 'my-files' }) => {
   const [filteredFiles, setFilteredFiles] = useState([]);
   const [viewTitle, setViewTitle] = useState('My Files');
