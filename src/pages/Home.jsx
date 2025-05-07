@@ -74,3 +74,5 @@ const Home = ({ view = 'my-files' }) => {
       
     </div>
   );
+};
+export default Home;
