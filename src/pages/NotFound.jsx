@@ -24,7 +24,7 @@ const NotFound = () => {
       </motion.div>
       
       <motion.h1 
-        <p>© 2023 DropKind. All rights reserved.</p>
+        initial={{ y: -20, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ delay: 0.2 }}
         className="text-4xl md:text-6xl font-bold mb-2 text-surface-800 dark:text-surface-100"
